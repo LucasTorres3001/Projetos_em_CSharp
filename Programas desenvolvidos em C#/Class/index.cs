@@ -261,7 +261,6 @@ namespace Std{
             //------------------------------------------------------- * Impresão dos método da classe * --------------------------------------------------------
 
             Usuarios Individuo = new Usuarios(1,Name,NumberOfIdentification,MonthOfYear[NumberOfMonth-1],CityOfBirth,StatesOfBirth,Nationality,Ethnicity,SexOfUser,DayOfBirth,YearOfBirth,(DateTime.Now.Year-YearOfBirth),Weight,Height,(Weight/(Height*Height)));
-
             Usuarios Individuo2 = new Usuarios(2,Name2,NumberOfIdentification2,MonthOfYear2[NumberOfMonth2-1],CityOfBirth2,StateOfBirth2,Nationality2,Ethnicity2,SexOfUser2,DayOfBirth2,YearOfBirth2,(DateTime.Now.Year-YearOfBirth2),Weight2,Height2,(Weight2/(Height2*Height2)));
 
             Individuo.Info();
